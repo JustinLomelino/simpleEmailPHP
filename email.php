@@ -2,6 +2,11 @@
 A simple email form using sstmp and php
 requires sstmp and mailutils
 
+Author: Justin Lomelino, March 21st, 2017
+-->
+
+<?php
+/*
 also requires /etc/sstmp/sstmp.conf to contain:
 root=postmaster
 mailhub=smtp.gmail.com:587
@@ -10,7 +15,8 @@ AuthUser=AGmailUserName@gmail.com
 AuthPass=TheGmailPassword
 FromLineOverride=YES
 UseSTARTTLS=YES
--->
+*/
+?>
 
 <h2>A form to send email using sstmp</h2>
 <form action="email.php" method="post">
