@@ -1,5 +1,5 @@
 <!--
-A simple email form using sstmp and php
+A simple email form using ssmtp and php
 requires sstmp and mailutils
 
 Author: Justin Lomelino, March 21st, 2017
@@ -18,7 +18,7 @@ UseSTARTTLS=YES
 */
 ?>
 
-<h2>A form to send email using sstmp</h2>
+<h2>A form to send email using ssmtp</h2>
 <form action="email.php" method="post">
 	<p>First Name: <input type="text" name="firstname" /></p>
 	<p>Last Name: <input type="text" name="lastname" /></p>
